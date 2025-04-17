@@ -1,0 +1,29 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "concat_space": false,
+        "no_trailing_whitespace_in_comment": true,
+        "not_operator_with_successor_space": false,
+        "no_superfluous_phpdoc_tags": false,
+        "phpdoc_separation": {
+            "groups": [
+                [
+                    "deprecated",
+                    "link",
+                    "see",
+                    "since"
+                ],
+                [
+                    "author",
+                    "copyright",
+                    "license"
+                ],
+                [
+                    "category",
+                    "package",
+                    "subpackage"
+                ]
+            ]
+        }
+    }
+}
